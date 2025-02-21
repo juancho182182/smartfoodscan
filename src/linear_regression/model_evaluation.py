@@ -27,6 +27,6 @@ def evaluate_model(model, X_test, y_test):
     r2 = r2_score(y_test, y_pred)
 
     print(f"Model: {model.__class__.__name__}")
-    print(f"RMSE: {rmse:.4f}, MAE: {mae:.4f}, R²: {r2:.4f}\n")
+    print(f"RMSE: {rmse:.4f}, MSE: {mse:.4f}, MAE: {mae:.4f}, R²: {r2:.4f}\n")
 
-    return mse, rmse, mae, r2
+    return rmse, mse, mae, r2
