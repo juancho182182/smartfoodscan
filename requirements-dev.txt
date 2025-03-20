@@ -1,0 +1,54 @@
+# Minimal requirements
+pytest
+pylint
+ipdb
+jupyterlab
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# HTTP
+requests
+
+# File utilities
+pathlib
+
+# Frontend
+streamlit
+
+# Barcode
+pyzbar
+
+# CV
+opencv-python-headless
+google.cloud.vision
+
+# Prettify
+tabulate
+
+# Jupyter
+nbdime
+
+# Setup
+setuptools
+
+# Models
+joblib
+torch
+transformers
+xgboost
+
+# Deployment
+fastapi
+uvicorn
+
+#.env
+python-dotenv
+
+# OpenAI
+BeautifulSoup4
+openai==0.28
+
+plotly
